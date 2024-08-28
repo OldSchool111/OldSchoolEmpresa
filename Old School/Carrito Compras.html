@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="Style/carrito de compras.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="IMAGENES/LOGOSYJ.png" alt="LOGOSYJ" class="logo"/>
+        </div>
+    </header>
+    <main>
+        <div class="product">
+            <img src="IMAGENES/Jordan 4 negro blanco.webp" alt="Jordan 4 negro blanco">
+            <h2>Jordan 4 negro blanco</h2>
+            <p>$120.00</p>
+            <button class="add-to-cart">Añadir al Carrito</button>
+        </div>
+        <div class="product">
+            <img src="IMAGENES/otro_producto.webp" alt="Otro Producto">
+            <h2>Otro Producto</h2>
+            <p>$80.00</p>
+            <button class="add-to-cart">Añadir al Carrito</button>
+        </div>
+    </main>
+    <aside id="cart" class="cart">
+        <div class="cart-header">
+            <h2>Carrito de Compras</h2>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Aquí se mostrarán los productos añadidos al carrito -->
+        </div>
+        <div class="cart-footer">
+            <h3>Total: <span class="cart-total">$0.00</span></h3>
+            <button class="clear-cart">Vaciar Carrito</button>
+            <button class="checkout">Pagar</button>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
